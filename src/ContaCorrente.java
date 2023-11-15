@@ -10,5 +10,12 @@ public class ContaCorrente extends Conta {
 		System.out.println("=== Extrato Conta Corrente ===");
 		super.imprimirInfosComuns();
 	}
+
+	@Override
+	public void imprimirSaldo(){
+
+		System.out.println("=== Saldo da Conta Corrente do cliente ===");
+		super.imprimirSaldo();
+	}
 	
 }
